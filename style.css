@@ -1,0 +1,100 @@
+:root {
+    --sizeImage: clamp(200px, 30vw, 250px); 
+    --h1FontSize: clamp(24px, 5vw, 80px);
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 30px;
+    background-color: lightcyan;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    height: calc(100vh - 46px);
+    margin: 20px;
+    border: 3px solid white;
+    border-radius: 15px;
+    align-items: center;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    box-shadow: 3px 3px 10px slategray;
+    background-color: white;
+}
+
+nav {
+    display: none;
+}
+
+img {
+    border: lightskyblue 10px solid;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 3vh 2vw;
+    height: var(--sizeImage);
+    width: var(--sizeImage);
+    object-fit: cover;
+    float: left;
+}
+
+.container {
+    width: calc(100vw - var(--sizeImage) - 40px - 8vw - 86px);
+    height: calc(var(--sizeImage) / 2);
+    margin: calc(3vh + 20px + var(--sizeImage) / 4) 2vw;
+    background-color: lightskyblue;
+    float: left;
+    display: flex;
+    border-radius: 15px;
+}
+
+.container h1 {
+    margin: auto;
+    font-size: var(--h1FontSize);
+    text-align: center;
+    color: white;
+}
+
+
+.paragraphContainer {
+    background-color: whitesmoke;
+    padding: 10px;
+    width: calc((100% - 4vw - 24px) / 2);
+    height: calc(100% - var(--sizeImage) - 10vh - 64px);
+    margin: 1vh 2vw 2vh;
+    font-size: clamp(18px, 2.25vw, 28px);
+    border: 2px solid gray;
+    border-radius: 5px;
+    float: left;
+}
+
+.contactInformation {
+    margin: 2vh 2vw;
+    padding: 10px;
+    width: calc((100% - 8vw - 24px) / 2);
+}
+
+.contactInformation td:nth-child(odd) {
+    padding: 28px 0;
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: clamp(16px, 2.25vw, 28px); 
+}
+
+.contactInformation td:nth-child(even) {
+    color: black;
+    font-size: clamp(16px, 1.5vw, 38px);
+    text-align: right;
+}
+
+h1 {
+    color: slategray;
+    font-size: var(--h1FontSize);
+    text-align: center;
+    margin: 2vh 2vw;
+}
+
+iframe {
+    width: calc(100% - 40px - 2vw);
+    margin: 0 2vw;
+    height: calc(100% - 4vh - 46px - var(--h1FontSize));
+}
