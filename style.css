@@ -1,5 +1,5 @@
 :root {
-    --sizeImage: clamp(200px, 30vw, 250px); 
+    --sizeImage: 200px; 
     --h1FontSize: clamp(24px, 5vw, 80px);
 }
 
