@@ -11,7 +11,7 @@ html {
 }
 
 section {
-    height: calc(100vh - 46px);
+    height: 100vh;
     margin: 20px;
     border: 3px solid white;
     border-radius: 15px;
