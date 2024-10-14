@@ -77,12 +77,12 @@ img {
     padding: 5px 0;
     color: dodgerblue;
     font-weight: bold;
-    font-size: clamp(12px, 1.7vw, 28px); 
+    font-size: clamp(12px, 1.5vw, 24px); 
 }
 
 .contactInformation td:nth-child(even) {
     color: black;
-    font-size: clamp(12px, 1.5vw, 28px);
+    font-size: clamp(12px, 1.3vw, 24px);
     text-align: right;
 }
 
