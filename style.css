@@ -13,6 +13,7 @@ html {
 section {
     height: 100vh;
     margin: 20px;
+    padding: 5px 0;
     border: 3px solid white;
     border-radius: 15px;
     align-items: center;
@@ -59,9 +60,9 @@ img {
     background-color: whitesmoke;
     padding: 1px 3px;
     width: calc((100% - 4vw - 24px) / 2);
-    height: calc(100% - var(--sizeImage) - 10vh - 64px);
+    height: calc(100% - var(--sizeImage) - 10vh - 62px);
     margin: 1vh 2vw 2vh;
-    font-size: clamp(15px, 1.7vw, 24px);
+    font-size: clamp(14px, 1.7vw, 24px);
     border: 2px solid gray;
     border-radius: 5px;
     float: left;
