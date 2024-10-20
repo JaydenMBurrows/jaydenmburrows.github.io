@@ -65,7 +65,7 @@ img {
     width: calc((100% - 4vw - 24px) / 2);
     height: calc(100% - var(--sizeImage) - 10vh - 62px);
     margin: 0.7vh 2vw 1.5vh;
-    font-size: clamp(12px, 1.7vw, 24px);
+    font-size: clamp(13px, 1.7vw, 24px);
     border: 2px solid gray;
     border-radius: 5px;
     float: left;
@@ -84,12 +84,12 @@ img {
     padding: 10px 0;
     color: dodgerblue;
     font-weight: bold;
-    font-size: clamp(14px, 1.4vw, 24px); 
+    font-size: clamp(13px, 1.4vw, 24px); 
 }
 
 .contactInformation td:nth-child(even) {
     color: black;
-    font-size: clamp(12px, 1.3vw, 24px);
+    font-size: clamp(13px, 1.3vw, 24px);
     text-align: right;
 }
 
