@@ -55,13 +55,16 @@ img {
     color: white;
 }
 
+.container p {
+    margin: 2px 0;
+}
 
 .paragraphContainer {
     background-color: whitesmoke;
     padding: 1px 3px;
     width: calc((100% - 4vw - 24px) / 2);
     height: calc(100% - var(--sizeImage) - 10vh - 62px);
-    margin: 1vh 2vw 2vh;
+    margin: 0.7vh 2vw 1.5vh;
     font-size: clamp(12px, 1.7vw, 24px);
     border: 2px solid gray;
     border-radius: 5px;
