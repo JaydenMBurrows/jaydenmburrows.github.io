@@ -57,14 +57,17 @@ img {
 
 .paragraphContainer {
     background-color: whitesmoke;
-    padding: 10px;
+    padding: 1px 3px;
     width: calc((100% - 4vw - 24px) / 2);
     height: calc(100% - var(--sizeImage) - 10vh - 64px);
     margin: 1vh 2vw 2vh;
-    font-size: clamp(12px, 1.7vw, 28px);
+    font-size: clamp(15px, 1.7vw, 24px);
     border: 2px solid gray;
     border-radius: 5px;
     float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contactInformation {
@@ -74,15 +77,15 @@ img {
 }
 
 .contactInformation td:nth-child(odd) {
-    padding: 5px 0;
+    padding: 10px 0;
     color: dodgerblue;
     font-weight: bold;
-    font-size: clamp(12px, 1.5vw, 24px); 
+    font-size: clamp(14px, 1.4vw, 24px); 
 }
 
 .contactInformation td:nth-child(even) {
     color: black;
-    font-size: clamp(12px, 1.3vw, 24px);
+    font-size: clamp(14px, 1.3vw, 24px);
     text-align: right;
 }
 
@@ -97,4 +100,46 @@ iframe {
     width: calc(100% - 40px - 2vw);
     margin: 0 2vw;
     height: calc(100% - 4vh - 46px - var(--h1FontSize));
+}
+
+#inputElements {
+    display: flex;
+    margin: 10px auto;
+    width: 60vw;
+    padding: 10px;
+    justify-content: center;
+}
+
+#inputElements input {
+    margin: 0 15px;
+    font-size: clamp(15px, 1.7vw, 24px);
+}
+
+.playerBox {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    display: flex;
+    width: 70vw;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+.playerBox button {
+    font-size: 10vw;
+    padding: 10px 20px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.endResults {
+    margin: 0 auto;
+    width: 70vw;
+    text-align: center;
+    font-size: clamp(15px, 5vw, 36px);
+}
+
+#computerElement, #scoreMessage, #resultMessage {
+    margin: 10px;
 }
