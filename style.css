@@ -84,7 +84,7 @@ img {
     padding: 10px 0;
     color: dodgerblue;
     font-weight: bold;
-    font-size: clamp(12px, 1.4vw, 24px); 
+    font-size: clamp(14px, 1.4vw, 24px); 
 }
 
 .contactInformation td:nth-child(even) {
